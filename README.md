@@ -1,8 +1,11 @@
 # HO-MHT (Hypothesis Oriented Multi-Hypothesis Target Tracking/基于假设的多假设目标跟踪算法) 
 
 语言：Python3.x 
+
 外部依赖包：numpy, scipy, tqdm.
+
 注：使用murty算法进行优化，其效果和TO-MHT类似
+
 
 ## 1. tracker.py
 包含３个类(局部假设管理，航迹(假设簇)管理，全局假设管理)以及内部对数归一化函数．
